@@ -10,7 +10,7 @@ namespace Pyniu_tikrinimas
     {
         private DatabaseManager dbManager = new DatabaseManager();
 
-        public void GenerateRandomHarnesses(DataGridView dataGridView, int minHarnesses = 3, int maxHarnesses = 5)
+        public void GenerateRandomHarnesses(DataGridView dataGridView, int minHarnesses = 3, int maxHarnesses = 4)
         {
             Random rnd = new Random();
             int numberOfHarnesses = rnd.Next(minHarnesses, maxHarnesses + 1);
